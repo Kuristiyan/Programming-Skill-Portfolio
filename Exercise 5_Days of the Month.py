@@ -17,7 +17,8 @@ months={1:31,
         12:31}
 #Create a dictionary to store the months and the number of their days.
 user_month=int(input("Enter your selected month in numeric form: "))
-if user_month in months: #Nested If Statements
+#User integer input method to ask the user to enter a number. Variable to store the user input
+if user_month in months: #Checks if the user input number is in the dictionary. Nested if statements
     print("Valid Month") #Output if the first if statement is true
     if user_month==1 or user_month==3 or user_month==5 or user_month==7 or user_month==8 or user_month==10 or user_month==12: 
     #Create conditions using if statement with comparational and logical operators
@@ -49,7 +50,8 @@ months={1:31,
         12:31}
 #Create a dictionary to store the months and the number of their days.
 user_month=int(input("Enter your selected month in numeric form: "))
-if user_month in months: #Nested If statements
+#User integer input method to ask the user to enter a number. Variable to store the user input
+if user_month in months: #Checks if the user input number is in the dictionary. Nested if statements
     print("Valid Month") #Output if the first if statement is true
     if user_month==1 or user_month==3 or user_month==5 or user_month==7 or user_month==8 or user_month==10 or user_month==12:
     #Create conditions using if statement with comparational and logical operators
